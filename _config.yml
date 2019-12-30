@@ -108,7 +108,7 @@ analytics:
 # Site Author
 author:
   name             : "Xiaohe Yue"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/images/nashville1.JPG" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Data Science Portfolio"
   location         : "Nashville, TN, USA"
   email            :
