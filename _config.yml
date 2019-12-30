@@ -112,6 +112,8 @@ author:
   bio              : "Data Science Portfolio"
   location         : "Nashville, TN"
   email            :
+  github           : "marinayxh"
+  linkedin         : "xiaohe-yue-31b898130"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -131,6 +133,8 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
+    - label: "Linkedin"
+      # url: "https://www.linkedin.com/in/xiaohe-yue-31b898130/"
 
 # Site Footer
 footer:
