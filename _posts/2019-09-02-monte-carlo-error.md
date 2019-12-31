@@ -6,7 +6,7 @@ excerpt: "Simulation Study"
 ---
 
 
-## SIMULATION
+## Simulation
 
 
 * Large-scale computer-based simulations is a method of producing quantitative and predictive information. It is better that simulation results can come with a high confidence level.
@@ -16,12 +16,12 @@ excerpt: "Simulation Study"
 * There are two types of error. Absolute Error refers to the mathematical difference between the estimated probability (P`) and the actual probability (P). Relative Error divides the absolute error by the actual probability.
 
 
-#### ABSOLUTE ERROR
+#### Absolute Error
 * Absolute error is the difference between the measured value and "true" value.
 * This can be caused by your scale not measuring the exact amount you are trying to measure.
 * Absolute error = |P` - P|
 
-#### RELATIVE ERROR
+#### Relative Error
 * When used as a measure of precision, it is the ratio of the absolute error of a measurement to the measurement being taken. 
 * It can describe accuracy on how a measurement is compared to the true value.
 * Relative error =  |P` - P| / P
@@ -144,7 +144,7 @@ lines(M10[,5],col="orange",type = "b")
 ```
 ![](/images/monte3.PNG)
 
-```{r}
+```r
 n <- rep(NA,14)
 for(i in 1:14){
   n[i] <-2^(i+1)
