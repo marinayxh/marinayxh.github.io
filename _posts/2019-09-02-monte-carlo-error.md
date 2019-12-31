@@ -19,12 +19,12 @@ excerpt: "Simulation Study"
 #### Absolute Error
 * Absolute error is the difference between the measured value and "true" value.
 * This can be caused by your scale not measuring the exact amount you are trying to measure.
-* Absolute error = |P` - P|
+* Absolute error equals to the absolute value of P`- P
 
 #### Relative Error
 * When used as a measure of precision, it is the ratio of the absolute error of a measurement to the measurement being taken. 
 * It can describe accuracy on how a measurement is compared to the true value.
-* Relative error =  |P` - P| / P
+* Relative error equals to the absolute value of P`- P, then divided by P.
 
 
 
@@ -40,6 +40,7 @@ The main idea is to create a matrix that can store all the mean number of the ab
 ### Simulation error in Log2 scale
 * Notice that top one graph is for absolute error, and the bottom one is for relative error.
 * Besides, different lines in different colors which representing certain value of probability: yellow one is for 0.50, purple one is for 0.25, green one is for 0.10, blue one is for 0.05 and red one is for 0.01.
+
 ```r
 n <- rep(NA,14)
 for(i in 1:14){
@@ -57,9 +58,8 @@ for(x in 1:length(p)){
   }
 M
 }
-```
 
-```r
+
 plot(M[,1], xlim = c(0,14),ylim = c(0,0.2),xaxt="n",xlab = "N(log2 scale)",ylab="Absolute Error")
 lname <- p
 xname <- n
