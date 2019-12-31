@@ -6,8 +6,11 @@ header:
 ---
 
 
-> Simulation Study
-
-```{r, echo=FALSE}
-htmltools::includeHTML("CLT-approximation.html")
-```
+<ul>
+{% for post in site.posts %}
+  <li>
+    <a href="{% post.permalink %}">{% post.title %}</a>
+    <p>{{ post.excerpt }}</p>
+  </li>
+{% endfor %}
+</ul>
