@@ -110,6 +110,7 @@ author:
   name             : "Xiaohe Yue"
   avatar           : "/images/photoID2019.JPG" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "MS degree in progress  \nData Science program  \nVanderbilt University"
+  resume           : "Resume"
   location         : "Nashville, TN, USA"
   email            : "marina.yue@vanderbilt.edu"
   github           : "marinayxh"
@@ -135,6 +136,8 @@ author:
       # url: "https://instagram.com/"
     - label: "Linkedin"
       # url: "https://www.linkedin.com/in/xiaohe-yue-31b898130/"
+    - label: "Resume"
+      # url: "https://drive.google.com/file/d/1PHVbkXI3QHW_J83XRJI5dwaWmqkdGU8T/view?usp=sharing"
 
 # Site Footer
 footer:
