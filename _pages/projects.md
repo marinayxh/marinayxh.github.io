@@ -7,4 +7,7 @@ header:
 
 
 > Simulation Study
-* [link](https://drive.google.com/open?id=19GEwccNc-IvzTfQcmQK8oxqPQYIU5Rnw)
+
+```{r, echo=FALSE}
+htmltools::includeHTML("CLT-approximation.html")
+```
