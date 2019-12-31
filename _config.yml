@@ -109,9 +109,9 @@ analytics:
 author:
   name             : "Xiaohe Yue"
   avatar           : "/images/photoID2019.JPG" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Master student majored in Data Science at Vanderbilt University"
+  bio              : "Master student  \nData Science program  \nVanderbilt University"
   location         : "Nashville, TN, USA"
-  email            :
+  email            : "marina.yue@vanderbilt.edu"
   github           : "marinayxh"
   linkedin         : "xiaohe-yue-31b898130"
   links:
