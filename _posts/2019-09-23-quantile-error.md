@@ -18,7 +18,7 @@ excerpt: "Simulation Study"
 
 ### Distribution 1: The Standard Normal Distribution
 
-_Figure of the Length of middle 95% of sampling distribution_
+* Figure of the Length of middle 95% of sampling distribution
 
 Here we could see that between 0.4 and 0.6 quantile, the middle 95% sampling distribution gets dense and hits the lowest point, which means a more precisely estimation happened here. The overall graph is concaved up. 
 
@@ -51,7 +51,7 @@ plot(p,mid.lengths, xlab = "pth quantile", ylab = "Length", main = "Length of mi
 
 
 
-_Figure of the length of the middle 95% of the sampling distribution by density_
+* Figure of the length of the middle 95% of the sampling distribution by density
 
 Here we could see that the overall distribution is showing a negative relationship between the two variables, which means a higher density has a lower length. There are two density points for the same length because, from the sampling distribution (the first graph), we could see that for the left tail and right tail, there are some points have the same slope/density.
 
@@ -66,7 +66,7 @@ plot(dnorm(qnorm(p)),mid.lengths, xlab = "Density", ylab = "Length", main = "Len
 
 ### Distribution 2: The exponential distribution with rate = 1.
 
-_Figure of the Length of middle 95% of sampling distribution_
+* Figure of the Length of middle 95% of sampling distribution
 
 Here we could see for the exponential distribution (with rate = 1), the middle 95% sampling distribution shows an increasing exponential distribution shape. Length range gets bigger for this distribution.
 
@@ -95,7 +95,7 @@ plot(p,ed.mid.lengths, xlab = "pth quantile", ylab = "Length", main = "Length of
 
 
 
-_Figure of the length of the middle 95% of the sampling distribution by density_
+* Figure of the length of the middle 95% of the sampling distribution by density
 
 Here we could see that for this distribution, it is not shown clear which point is most densed. 
 ```r
@@ -121,7 +121,7 @@ plot(dexp(qexp(p)),ed.mid.lengths, xlab = "Density", ylab = "Length", main = "Le
         .5*dnorm(x) + .3*dnorm(x,4) + .2*dnorm(x,-4,2)
       }
 
-_Figure of the Length of middle 95% of sampling distribution_
+* Figure of the Length of middle 95% of sampling distribution
 
 Here we could see for this mixture distribution. There are two peaks when probability is about 0.2 and 0.7. We also can find that when quantile hits to about 0.4, it is more dense. The range of the length is getting bigger here.
 
@@ -184,7 +184,7 @@ plot(roots, mix3.mid.lengths, xlab = "Probability", ylab = "Length", main = "Len
 
 
 
-_Figure of the length of the middle 95% of the sampling distribution by density_
+* Figure of the length of the middle 95% of the sampling distribution by density
 
 Here we could see that the overall trend is going down between these two variables, but the points are kind of everywhere.
 
@@ -204,7 +204,7 @@ plot(df3(roots),mix3.mid.lengths, xlab = "Density", ylab = "Length", main = "Len
         (G==0)*rbeta(N,5,1) + (G==1)*rbeta(N,1,5)
       }
 
-_Figure of the Length of middle 95% of sampling distribution_
+* Figure of the Length of middle 95% of sampling distribution
 
 Here we could see for this mixture distribution; it has a normal distribution sampling. Here, it shows least precise when quantile hits the peak: look at how many points appearing, and the peak has the least. The range of the length is the smallest between these distributions.
 
@@ -244,7 +244,7 @@ plot(p, mix4.mid.lengths, xlab = "pth quantile", ylab = "Length", main = "Length
 
 
 
-_Figure of the length of the middle 95% of the sampling distribution by density_
+* Figure of the length of the middle 95% of the sampling distribution by density
 
 Here we could see that the overall trend is going down between these two variables. The range of the density is also larger: larger density number means better precision.
 
@@ -277,17 +277,17 @@ plot(df4_1,mix4.mid.lengths,xlab="Density",ylab="Length",main="Length of the mid
 ## Questions
 
 
-1. Which quantiles have more precision? less precision?
+* Which quantiles have more precision? less precision?
 
 For the first distribution, we can see that when pth quantile hits in range 0.4 to 0.6, the length of the middle 95% has the smallest value, which means that between 40th quantile and 60th quantile, for this distribution, the median has more precision. When the pth quantile less than about 0.1 or higher than about 0.9, we could see that points are loose, and the length is high for either situation. For the second distribution, we can see that when the pth quantile is higher than about 0.9, the points are loose and length value is high, which means that here the quantile has less precision. In the other hand, we can see that when pth quantile is less than about 0.1, the length of the middle 95% has the smallest value, which means that inside of this range, the quantile has more precision. For the third distribution, we can see that when pth quantile hits to about 0.4, the points are dense and the length value is relatively small, which means that around 40th quantile has more precision. In the other hand, when pth quantile hits to 0.1, points are loose, and the length value is high which means about 10th quantile has less precision. For the fourth distribution,  we can see that when pth quantile hits to 0.5, the points are loose and length value is high which means that the 50th quantile has less precision. In the other hand, 10th and 90th quantile have more precision since points are dense here and the length value is low. 
 
 
-2. When does the median have the tightest sampling distribution?
+* When does the median have the tightest sampling distribution?
 
 For the first distribution, we can see that when the pth quantile hits to 0.5, the length of the middle 95% of the sampling distribution is nearly around 0.35 and points are dense compared to other distribution. We can also see the density here is the highest among other quantiles. Thus, the median in the first distribution has the tightest sampling distribution. 
 
 
-3. Select a distribution and create a figure similar to the first one above, adding additional lines for N=400, 800, 1600. Explain how the information in the figure might be used when planning data collection and data analysis.
+* Select a distribution and create a figure similar to the first one above, adding additional lines for N=400, 800, 1600. Explain how the information in the figure might be used when planning data collection and data analysis.
 
 The limit of length is changing while N is changing. We need a larger size of N if we want a better and more precisely estimation. 
 
