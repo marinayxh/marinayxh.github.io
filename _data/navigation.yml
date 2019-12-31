@@ -2,8 +2,8 @@
 main:
   - title: "About"
     url: /about/
-  - title: "Projects"
-    url: /projects/
+  - title: "Simulation Study"
+    url: /simulation-study/
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"

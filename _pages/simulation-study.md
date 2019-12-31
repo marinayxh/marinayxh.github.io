@@ -1,6 +1,6 @@
 ---
-title: "Projects"
-permalink: /projects/
+title: "Simulation Study"
+permalink: /simulation-study/
 header:
   image: "/images/projects1.jpg"
 ---
