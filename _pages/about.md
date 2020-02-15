@@ -9,4 +9,4 @@ Xiaohe Yue is a talented student that will graduate in May 2021 from Vanderbilt 
 
 
 
-* [Resume](https://drive.google.com/file/d/1PHVbkXI3QHW_J83XRJI5dwaWmqkdGU8T/view?usp=sharing)
+* [Resume](https://drive.google.com/file/d/1dJ6SVGe30hq09GvsQ5S_gepD6zNsFuLl/view?usp=sharing)
